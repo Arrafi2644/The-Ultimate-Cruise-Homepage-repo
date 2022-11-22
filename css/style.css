@@ -1,0 +1,391 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    max-width: 1490px !important; 
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;   
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section .row{
+    font-weight: 600;
+}
+.header-section img{
+    width: 300px;
+    padding: 10px 25px;
+}
+
+.header-section .nav ul{
+    display: flex;
+}
+.header-section .nav ul li{
+    list-style: none;
+
+}
+.header-section .nav ul li a{
+    color: black;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.header-section .nav ul li a:hover{
+    color: #004677;
+}
+
+.btn{
+    padding: 10px 30px;
+    background-color: #004677;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.header-section .btn:hover{
+    background-color:#ed174b ;
+}
+.btn a{
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover a{
+    color: white;
+    font-weight: 600;
+}
+
+/* bannner section  */
+
+.banner-section{
+    background: url(../img/The\ Ultimate\ Cruise-Homepage-banner\ bg.jpg) no-repeat center center/cover;
+    height: 627px;
+    max-width: 100%;
+    position: relative;
+}
+
+
+.banner-section .banner-text{
+    color: white;
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-145%);
+    text-transform: uppercase;
+}
+
+.banner-section .banner-text p{
+    font-size: 32px;
+}
+.banner-section .banner-text h1{
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+
+
+/* Services section  */
+
+ .services-section .row{
+    padding: 80px 64px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.services-section .col{
+    display: flex;
+   align-items: center;
+   column-gap: 15px;
+}
+.services-section .col h3{
+    color: #004677;
+    text-transform: uppercase;
+}
+.services-section .icon{
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    padding: 20px;
+    background-color: #004677;
+    border-radius: 50%;
+}
+
+/* about section  */
+.about-section1{
+    padding-top: 80px;
+}
+
+.about-head{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-section1 .about-head img{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.about-section1 .about-head h2{
+    font-size: 42px;
+    padding: 5px 0;
+    color: #004677;
+    text-transform: uppercase;
+}
+.about-section1 .about-head p{
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.about-section1 .row{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+.about-section1 .card-show-part img{
+    width: 100%;
+}
+.about-section1 .ship-cards{
+display: inherit;
+flex-wrap: wrap;
+text-align: center;
+transition: all 1s;
+}
+.about-section1 .card{
+    width: 20%;
+    height: 265px;
+    margin-top: 30px;
+    background-color: #f8f8f8;
+    line-height: 25px;
+    transition: 0.6s;
+
+}
+
+.about-section1 .card h2{
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+.about-section1 .card .card-details{
+    display: none;
+    width: auto;
+    padding: 5px;
+}
+
+.about-section1 .card:hover .card-details{
+display: block;
+}
+ .about-section1 .card-1:hover{
+    margin-top: 10px;
+    height: auto;
+}
+.about-section1 .card-2:hover{
+    margin-top: 10px;
+    height: auto;
+}
+.about-section1 .card-3:hover{
+    margin-top: 10px;
+    height: auto;
+}
+.about-section1 .card-4:hover{
+    margin-top: 10px;
+    height: auto;
+}
+.about-section1 .card-5:hover{
+    margin-top: 10px;
+    height: auto;
+}
+.about-section1 .btn{
+    margin: 20px 0;
+    background-color:#ed174b ;
+}
+.about-section1 .btn:hover{
+    background-color: #004677;
+}
+
+
+
+.about-section2{
+    padding: 80px 0;
+}
+.about-section2 .text-col{
+max-width: 800px;
+line-height: 25px;
+
+}
+
+.about-section2 .text-col h2{
+    padding: 25px 0;
+    font-size: 42px;
+    color: #004677;
+    text-transform: uppercase;
+}
+.about-section2 .btn{
+    margin-top: 25px;
+}
+.about-section2 .btn:hover{
+   background-color: #ed174b;
+}
+
+
+/* booking-section  */
+
+.booking-section{
+    background-color: #ed174b;
+    padding: 64px;
+    color: white;
+}
+
+
+.book-left-sec{
+    display: inherit;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.book-left-sec .book-text p{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.book-left-sec .book-text h2{
+font-weight: 700;
+font-size: 42px;
+text-transform: uppercase;
+}
+.booking-btn{
+    background-color: white;
+    padding: 15px 90px;
+}
+.booking-btn a{
+    color: #ed174b;
+}
+
+.booking-btn:hover{
+ background-color: #004677;
+
+}
+
+
+/* footer section */
+
+.footer-section{
+padding: 20px;
+background-color: #0d273a;
+color: #92aabc;
+}
+.footer-section .row{
+    align-items: baseline;
+}
+
+.under-line{
+    width: 65px;
+    height: 5px;
+    background-color: #ed174b;
+}
+.footer-col-header{
+    color: white;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.footer-section .col-1{
+    max-width: 25%;
+}
+.footer-section p{
+     padding: 20px 0;
+}
+.footer-section .fa-brands{
+   font-size: 22px;
+}
+
+.footer-section .follow{
+    color: white;
+    padding-bottom: 40px;   
+}
+.footer-section .follow h3{
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+.footer-section p{
+    line-height: 22px;
+}
+.footer-section .follow .follow-link{
+display: flex;
+column-gap: 20px;
+padding-bottom: 20px;
+
+}
+.footer-section .follow .follow-link :hover{
+    cursor: pointer;
+    color: #92aabc;
+}
+
+.footer-section .footer-col-header h3{
+    text-transform: uppercase;
+}
+
+.footer-section .quick-links ul{
+display: flex;
+flex-direction: column;
+}
+.footer-section .quick-links ul li{
+    list-style: none;
+    padding: 12px 0;
+}
+.footer-section .quick-links ul li a{
+    color: #92aabc;
+   text-decoration: none;
+ transition: all 0.4s;
+}
+.footer-section .other-links ul{
+display: flex;
+flex-direction: column;
+}
+.footer-section .other-links ul li{
+    list-style: none;
+    padding: 12px 0;
+}
+.footer-section .other-links ul li a{
+    color: #92aabc;;
+   text-decoration: none;
+ transition: all 0.4s;
+}
+.footer-section  ul li a:hover{
+    color: white;
+}
+
+.footer-section .col-4{
+width: 23%;
+}
+.footer-section .col-4 input{
+padding: 10px 20px;
+width: 100%;
+font-size: 20px;
+box-sizing: border-box;
+}
+.footer-section .col-4 img{
+    padding: 20px 0;
+}
+
+.footer-last-section{
+    text-align: center;
+}
+
+
+
+
+
